@@ -125,8 +125,7 @@ Este proyecto, **pruebatecnica** (`v0.1.0`), fue creado con [Next.js](https://ne
 ---
 
 ## ☁️ Despliegue
-
-El método más sencillo y utilizado es mediante [VPS](http://85.239.238.108:3002/).
+El despliegue se realizó mediante un [VPS](http://85.239.238.108:3002/). en la dirección: http://85.239.238.108:3002/.
 
 
 ---
