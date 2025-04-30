@@ -11,7 +11,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "../components/ui/textarea"
 import { toast } from "sonner"
 import { Product } from "@/lib/types"
-import { Package, Save, FileText, Hash, ShoppingBasket, ImageIcon } from "lucide-react"
+import { ImageIcon } from "lucide-react"
 import { ImageUpload } from "../components/image-upload"
 
 const formSchema = z.object({
