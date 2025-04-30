@@ -131,7 +131,7 @@ pruebatecnica/
 
 ## ☁️ Despliegue
 
-El método más sencillo es mediante [VPS](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
+El método más sencillo es mediante [VPS](http://85.239.238.108:3002/).
 
 Para otras alternativas, revisa la [guía de despliegue de Next.js](https://nextjs.org/docs/app/building-your-application/deploying).
 
