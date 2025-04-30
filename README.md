@@ -1,36 +1,35 @@
 # 🚀 Prueba Técnica Desarrollador Junior - React / Next.js
 
-Este proyecto, **pruebatecnica** (`v0.1.0`), fue creado con [Next.js](https://nextjs.org) mediante [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app). A continuación se muestran detalles y cómo iniciar:
+Este proyecto, **pruebatecnica** (`v0.1.0`), fue creado con [Next.js](https://nextjs.org) mediante [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app). A continuación se muestran los detalles del stack, estructura del código y cómo ejecutarlo localmente.
 
 ---
 
 ## 🛠️ Tecnologías y Librerías Principales
 
-- **Next.js 15.3.1** con **Turbopack** para un desarrollo ultrarrápido.
-- **React 19** para la construcción de interfaces.
-- **TypeScript 5** para tipado estático.
-- Gestión de estados: **Zustand**.
-- Formularios: **React Hook Form** y **Zod** para validación.
-- UI:
-  - **@radix-ui/react-*** (Dialog, Select, Dropdown Menu, Scroll Area, Separator, Label, Slot)
-  - **@shadcn/ui** componentes básicos.
-  - **Lucide React** iconos.
-- Theming: **next-themes**.
-- Notificaciones: **Sonner**.
-- Utilidades:
-  - **class-variance-authority** y **clsx** para clases condicionales.
-  - **tailwind-merge**, **tw-animate-css**, **tailwindcss-animate** para estilos.
+- **Next.js 15.3.1** con **Turbopack** para desarrollo más rápido.
+- **React 19** para la construcción de interfaces reactivas.
+- **TypeScript 5** para tipado estático y desarrollo más seguro.
+- **Zustand** para la gestión de estado global.
+- **React Hook Form** y **Zod** para formularios con validación.
+- **@radix-ui/react-***: Librerías de accesibilidad para Dialog, Select, Dropdown Menu, Scroll Area, Separator, Label, Slot.
+- **@shadcn/ui**: Conjunto de componentes UI listos para usar.
+- **Lucide React**: Iconos personalizables.
+- **next-themes**: Soporte para temas claro/oscuro.
+- **Sonner**: Sistema de notificaciones elegante y accesible.
+- Utilidades varias:
+  - **clsx** y **class-variance-authority** para manejo de clases condicionales.
+  - **tailwind-merge**, **tailwindcss-animate**, **tw-animate-css** para mejorar estilos y animaciones.
+  - **lodash.merge** para fusión de objetos complejos.
 
 ---
 
-## ⚙️ Instalación y ejecución
+## ⚙️ Instalación y Ejecución
 
-1. Clonar el repositorio:
+1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/JhonGomezC/PruebaTecnicaDesarrolladorJuniorReact-Next.git
-   cd PruebaTecnicaDesarrolladorJuniorReact-Next
-   ```
+   git clone https://github.com/JhonGomezC/pruebatecnica.git
+   cd pruebatecnica
 
 2. Instalar dependencias:
 
@@ -72,16 +71,14 @@ Este proyecto, **pruebatecnica** (`v0.1.0`), fue creado con [Next.js](https://ne
 
 ## 📁 Estructura del Proyecto
 
-```
-pruebatecnica/
-├─ .next/                     # Archivos generados por Next.js
-├─ app/                       # Rutas y archivos del App Router
+```pruebatecnica/
+├─ app/                       # Enrutamiento con App Router
 │  ├─ favicon.ico
 │  ├─ globals.css
 │  ├─ layout.tsx
 │  └─ page.tsx
-├─ components/                # Componentes reutilizables
-│  ├─ ui/                     # Biblioteca de componentes UI (Radix, shadcn)
+├─ components/
+│  ├─ ui/                     # Componentes UI basados en shadcn y radix
 │  │  ├─ badge.tsx
 │  │  ├─ button.tsx
 │  │  ├─ card.tsx
@@ -104,18 +101,17 @@ pruebatecnica/
 │  ├─ product-list.tsx
 │  ├─ product-preview.tsx
 │  └─ theme-provider.tsx
-├─ lib/                       # Funciones y utilidades especializadas
-├─ store.ts                   # Configuración de Zustand para state global
-├─ types.ts                   # Definición de tipos TypeScript
-├─ utils.ts                   # Funciones utilitarias generales
-├─ public/                    # Archivos estáticos (imágenes, fuentes)
-├─ node_modules/              # Dependencias instaladas
-├─ .gitignore                 # Archivos y carpetas ignorados por Git
-├─ next.config.ts             # Configuración de Next.js personalizada
-├─ tailwind.config.js         # Configuración de Tailwind CSS
-├─ postcss.config.js          # Configuración de PostCSS
-├─ tsconfig.json              # Configuración de TypeScript
-└─ package.json               # Scripts y dependencias
+├─ lib/                       # Funciones especializadas
+├─ store.ts                   # Configuración de Zustand
+├─ types.ts                   # Tipos globales de TypeScript
+├─ utils.ts                   # Utilidades generales
+├─ public/                    # Archivos estáticos
+├─ .gitignore
+├─ next.config.ts
+├─ tailwind.config.js
+├─ postcss.config.js
+├─ tsconfig.json
+└─ package.json
 
 ```
 
@@ -124,16 +120,14 @@ pruebatecnica/
 ## 📚 Recursos de Aprendizaje
 
 - 📘 [Documentación oficial de Next.js](https://nextjs.org/docs)
-- 🧪 [Tutorial interactivo](https://nextjs.org/learn)
 - 🛠 [Repositorio de Next.js en GitHub](https://github.com/vercel/next.js)
 
 ---
 
 ## ☁️ Despliegue
 
-El método más sencillo es mediante [VPS](http://85.239.238.108:3002/).
+El método más sencillo y utilizado es mediante [VPS](http://85.239.238.108:3002/).
 
-Para otras alternativas, revisa la [guía de despliegue de Next.js](https://nextjs.org/docs/app/building-your-application/deploying).
 
 ---
 
